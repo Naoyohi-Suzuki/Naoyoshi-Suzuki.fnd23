@@ -1,0 +1,90 @@
+#main-tb {
+  background-color:#bbb;
+}
+td {
+  background-color: white;
+}
+
+#btnAll {
+  background-image: url("country/All.png");
+  background-size: 100%;
+  width: 80px;
+  height: 54px;
+  border: none;
+  cursor: pointer; 
+}
+#btnJA {
+  background-image: url("country/JP.gif");
+  background-size: 100%;
+  width: 80px;
+  height: 54px;
+  border: none;
+  cursor: pointer;
+}
+
+#btnDE {
+  background-image: url("country/DE.gif");
+  background-size: 100%;
+  width: 80px;
+  height: 54px;
+  border: none;
+  cursor: pointer;
+}
+
+#btnUS {
+  background-image: url("country/US.gif");
+  background-size: 100%;
+  width: 80px;
+  height: 54px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-good {
+  background-image: url("vote_icon/btn_good_normal.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: "#ddd";
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 38px;
+}
+
+.button-good:active {
+  background-image: url("vote_icon/btn_good_on.png");
+}
+
+.button-bad {
+  background-image: url("vote_icon/btn_bad_normal.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: "#ddd";
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 38px;
+}
+
+.button-bad:active {
+  background-image: url("vote_icon/btn_bad_on.png");
+}
+
+
+.button-resere {
+  border-width:thin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 160px;
+  height: 32px;
+  padding: 16px 24px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color:dimgrey;
+  text-align: center;
+  overflow-wrap: anywhere;
+  background-color:lightgrey;
+  border-radius: 10px; /* (buttonの高さ / 2) の値 */
+}
